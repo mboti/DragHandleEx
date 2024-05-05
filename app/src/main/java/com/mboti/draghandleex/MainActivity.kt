@@ -24,7 +24,8 @@ class MainActivity : ComponentActivity() {
                     color = MaterialTheme.colorScheme.background
                 ) {
                     //Example1()
-                    Example2()
+                    //Example2()
+                    Example3()
                 }
             }
         }

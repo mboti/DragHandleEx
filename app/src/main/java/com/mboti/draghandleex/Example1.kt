@@ -25,7 +25,7 @@ import androidx.compose.ui.unit.sp
 fun Example1() {
     ModalBottomSheet(
         modifier = Modifier,
-        sheetState = rememberModalBottomSheetState(skipPartiallyExpanded = false),
+        sheetState = rememberModalBottomSheetState(skipPartiallyExpanded = true),
         onDismissRequest = {},
         shape = RoundedCornerShape(topStart = 10.dp, topEnd = 10.dp),
     ) {
